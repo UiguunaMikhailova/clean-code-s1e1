@@ -125,6 +125,9 @@ var taskCompleted=function(){
 
     //Append the task list item to the #completed-tasks
     var listItem=this.parentNode;
+    const labelCompleted = listItem.childNodes[3];
+    labelCompleted.classList.add('task__label--line-through');
+    // label.className='task__label--line-through'
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
 
