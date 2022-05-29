@@ -38,15 +38,15 @@
   display: flex;
 }
 .todo-list, .completed-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .section__heading, .todo-list__task, .completed-list__task {
-  list-style:none;
+  list-style: none;
 }
 .task__checkbox, .task__input, .task__edit-btn, .task__delete-btn, .task__btn{
   vertical-align: middle;
-  outline:none;
+  outline: none;
 }
 .task__edit-btn, .task__delete-btn, .task__btn {
   background: none;
@@ -134,7 +134,7 @@
 
 /* Edit Task */
 .task__input {
-  display:none;
+  display: none;
 }
 
 .task__input--visible {
@@ -142,10 +142,10 @@
 }
 
 .task--edit .task__input {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .task--edit .task__label {
-  display:none;
+  display: none;
 }
