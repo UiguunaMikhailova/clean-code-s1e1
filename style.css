@@ -59,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="task-input"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -127,7 +127,7 @@ li >    input[type="text"] {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-list label {
   text-decoration: line-through
   color: #888;
 }
