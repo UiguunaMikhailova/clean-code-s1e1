@@ -32,7 +32,7 @@
 .task__input, .task__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .new-task {
   display: flex;
@@ -115,7 +115,7 @@
   vertical-align: middle;
 }
 .task__input {
-  width: 226px
+  width: 226px;
 }
 .delete-btn__icon {
   height: 2em;
@@ -128,7 +128,7 @@
 
 /* Completed */
 .task__label--line-through {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -143,7 +143,7 @@
 
 .task--edit .task__input {
   display:inline-block;
-  width:224px
+  width:224px;
 }
 
 .task--edit .task__label {
