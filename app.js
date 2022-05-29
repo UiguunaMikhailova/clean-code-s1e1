@@ -18,13 +18,16 @@ var completedTasksHolder=document.getElementById("completed-list");//completed-t
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
+    listItem.className="todo-list__task";
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
+    checkBox.className="task__checkbox";
     //label
     var label=document.createElement("label");//label
     //input (text)
     var editInput=document.createElement("input");//text
+    editInput.className="task__input";
     //button.edit
     var editButton=document.createElement("button");//edit button
 

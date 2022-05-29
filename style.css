@@ -135,6 +135,10 @@
   display:none;
 }
 
+.task__input--visible {
+  display: inline-block;
+}
+
 .task--edit .task__input {
   display:inline-block;
   width:224px
