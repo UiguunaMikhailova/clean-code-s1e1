@@ -158,7 +158,7 @@
 }
 
 /* Completed */
-.task__label--line-through {
+.task__label_line-through {
   text-decoration: line-through;
   color: #888;
 }
@@ -168,15 +168,15 @@
   display: none;
 }
 
-.task__input--visible {
+.task__input_visible {
   display: inline-block;
 }
 
-.task--edit .task__input {
+.task_edit .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.task--edit .task__label {
+.task_edit .task__label {
   display: none;
 }

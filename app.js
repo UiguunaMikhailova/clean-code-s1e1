@@ -89,7 +89,7 @@ var editTask=function(){
     var editInput=listItem.querySelector('.task__input');
     var label=listItem.querySelector(".task__label");
     var editBtn=listItem.querySelector(".task__edit-btn");
-    var containsClass=listItem.classList.contains("task--edit");
+    var containsClass=listItem.classList.contains("task_edit");
     //If class of the parent is .editmode
     if(containsClass){
 
@@ -103,7 +103,7 @@ var editTask=function(){
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("task--edit");
+    listItem.classList.toggle("task_edit");
 };
 
 
@@ -127,7 +127,7 @@ var taskCompleted=function(){
     const list = listItem.childNodes;
     for (let item of list) {
         if (item.nodeName === 'LABEL') {
-            item.classList.add('task__label--line-through')
+            item.classList.add('task__label_line-through')
         }
     }
     completedTasksHolder.appendChild(listItem);
@@ -145,7 +145,7 @@ var taskIncomplete=function(){
     const list = listItem.childNodes;
     for (let item of list) {
         if (item.nodeName === 'LABEL') {
-            item.classList.remove('task__label--line-through')
+            item.classList.remove('task__label_line-through')
         }
     }
     incompleteTaskHolder.appendChild(listItem);
